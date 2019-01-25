@@ -4,9 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [dev-packages]
+ipython = "*"
 
 [packages]
 django = "*"
+celery = "*"
+redis = "*"
 
 [requires]
 python_version = "3.6"
